@@ -1,0 +1,26 @@
+body{
+    font-family: 'Marck Script', cursive;
+}
+.tit{
+    font-family: 'Dela Gothic One', cursive;
+    text-align: right ;
+    
+}
+.test{
+    font-family: 'Nunito', sans-serif;
+    text-align: right;
+}
+.test3{
+    font-family: 'Nunito', sans-serif;
+
+}
+.test4{
+    font-family: 'Orelega One', cursive;
+   text-decoration:black underline ;
+   
+   
+    
+}
+address{
+    text-align: right;
+}
