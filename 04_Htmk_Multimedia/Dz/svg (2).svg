@@ -1,0 +1,8 @@
+<svg width="103" height="50" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path d="m-0.5,26.5c0,-1 1.29289,-0.29289 2,-1c0.70711,-0.70711 0.61732,-1.07612 1,-2c0.5412,-1.30656 2.29289,-1.29289 3,-2c0.70711,-0.70711 1.29289,-0.29289 2,-1c0.70711,-0.70711 0.29289,-1.29289 1,-2c0.70711,-0.70711 1.07612,-0.61732 2,-1c1.30656,-0.5412 1.29289,-1.29289 2,-2c0.70711,-0.70711 1.29289,-0.29289 2,-1c0.70711,-0.70711 2,0 2,-1l1,0" id="svg_1" stroke-width="0" stroke="#000" fill="none"/>
+  <polyline stroke-linecap="round" id="svg_2" points="25.5,-43.5 25.5,-44.5 " stroke-width="0" stroke="#000" fill="none"/>
+  <text transform="matrix(1 0 0 1 0 0)" style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="'Changa'" font-size="24" id="svg_4" y="35" x="14.57813" stroke-width="0" stroke="#000" fill="#000000">Вперед</text>
+ </g>
+</svg>
