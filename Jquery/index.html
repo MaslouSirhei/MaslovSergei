@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        td{
+            border-bottom: 2px dotted #000000;
+            border-right: 2px dotted #000000;
+            
+            
+        
+        }
+        .test1{
+            
+            background-color: gray;
+            border-bottom: 2px dotted #000000;
+
+        }
+        tr:hover {
+        background: #eeb059;
+        color: rgb(236, 79, 6); 
+   } 
+        
+      
+    </style>
+</head>
+<body>
+    <table class="test" id='0' >
+        <tr  class="test1"  >
+        
+            <th >ФИО</th>
+            <th>пол</th>
+            <th>должность</th>
+            <th>дата рож.</th>
+            <th>Данные 01</th>
+            <th>Данные 02</th>
+        </tr>
+        <tr class="test2" id="1">
+           
+            <td>Иванов Иван Иванович</td>
+            <td>М</td>
+            <td>Начальник</td>
+            <td>01.01.1960</td>
+            <td>4567</td>
+            <td>3453</td>
+        </button>
+        </tr>
+        <tr class="test3"id="2">
+            <td>Петрова Илонна Петровна</td>
+            <td>Ж</td>
+            <td>секретарь</td>
+            <td>01.01.1989</td>
+            <td>98795</td>
+            <td>46523</td>
+        </tr>
+        <tr class="test4"id="3" >
+            <td>Сидоров Илья Игоревич</td>
+            <td>М</td>
+            <td>бухгалтер</td>
+            <td>01.01.1979</td>
+            <td>743434</td>
+            <td>987979</td>
+        </tr>
+        <tr class="test5" id="4">
+            <td>Пупин Федор Федорович</td>
+            <td>М</td>
+            <td>водитель</td>
+            <td>01.01.1963</td>
+            <td>74323434</td>
+            <td>9232379</td>
+        </tr>
+        <tr class="test6" id="5">
+            <td>Крупин Сергей Иванович</td>
+            <td>М</td>
+            <td>водитель 2</td>
+            <td>01.01.1983</td>
+            <td>3234534</td>
+            <td>923123379</td>
+        </tr>
+         
+    </table>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ДАННЫЕ СОТРУДНИКАХ <br>
+    <button id="open">Все открыть</button>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function($){
+            $('#1').click(function() {
+            $('.test2').hide();});
+            $('#2').click(function() {
+            $('.test3').hide();});
+            $('#3').click(function() {
+            $('.test4').hide();});
+            $('#4').click(function() {
+            $('.test5').hide();});
+            $('#5').click(function() {
+            $('.test6').hide();});
+            $('#open').click(function() {
+                $('tr').show();}); 
+            
+
+        });
+    </script>
+    
+</body>
+</html>
